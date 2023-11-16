@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(32, 167, 221);
+}
+body header {
+  background-color: rgb(235, 102, 19);
+  padding: 20px;
+  text-align: center;
+  color: yellow;
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+body header h1 {
+  font-family: "Arial, Garamond, Times New Roman";
+}
+body nav ul {
+  list-style: none;
+}
+body nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 15px;
+}
+body nav ul li:hover {
+  background-color: yellow;
+  color: rgb(32, 167, 221);
+}
+body main {
+  padding: 20px;
+  text-align: center;
+  color: yellow;
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+body main p {
+  font-size: 21px;
+  color: white;
+}
+body footer {
+  padding: 20px;
+  text-align: center;
+  color: yellow;
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+body footer h2 {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=ex11.css.map */

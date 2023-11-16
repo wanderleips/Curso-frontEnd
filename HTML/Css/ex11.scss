@@ -1,0 +1,59 @@
+$cor1: rgb(32, 167, 221);
+$cor2:#abab12;
+$cor3:rgb(235, 102, 19);
+$cor4:white;
+$cor5:yellow;
+$letras: "Arial, Garamond, Times New Roman";
+$tamanhoLetra1:21px;
+
+@mixin confPadrao($font1){
+    padding: 20px;
+    text-align: center;
+    color: $cor5;
+    border: 1px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $font1;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: $cor1;
+    header{
+            background-color: $cor3;
+            @include confPadrao(25px);
+            h1{            
+                font-family: $letras;
+            }
+        }
+    nav{
+        ul{
+            list-style: none;
+            li{
+                text-decoration: none;
+                display:inline-block;
+                color:$cor4;
+                padding: 15px;
+            }
+            li:hover{
+                background-color:$cor5;
+                color:$cor1;
+            }
+        }
+    }
+    main{        
+        @include confPadrao(10px);
+        p{
+            
+            color:$cor4;
+        }
+    }
+    footer{          
+        @include confPadrao;     
+        h2{
+            color:$cor4;               
+            text-align: center;                  
+        }
+       
+    }
+
+}

@@ -1,0 +1,8 @@
+/*aplicando imagem de fundo no body*/
+body{
+    /*background-image: url(../img/lago.jpg); /*url da imagem*/  
+    background-size: cover; /*ajusta a imagem a tela*/
+    background-position:center; /*Posicionamento da imagem na tela*/
+    background-repeat: no-repeat; /*Faz com que a imagem não se repita na tela*/
+    opacity:0.1; /*Coloca opacidade na imagem*/ 
+}

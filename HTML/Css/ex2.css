@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    border-bottom: 2px solid blue;    
+    margin:auto;   
+    padding: 30px;
+    background-color: gray;
+}
+
+nav{
+    margin: 20px 15px 0px 10px;
+    padding: 15px;    
+}
+
+
+nav a{    
+   padding: 10px;
+   text-decoration: none;    
+}
+
+nav a:hover{
+    background-color: blue;
+    color:white;
+}
